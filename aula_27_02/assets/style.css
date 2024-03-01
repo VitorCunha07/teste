@@ -1,0 +1,46 @@
+
+.imagem{
+    width: 250px;
+    height: 150px;
+    
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    padding-left: 80px;
+   
+   
+}
+
+.info{
+    text-align: center;
+}
+
+button{
+    height: 55px;
+    width: 120px;
+    
+}
+
+/* para pc */
+@media (min-width: 900px){
+    .imagem{
+        width: 450px;
+        height: 400px;
+        display: inline-block;
+    }
+    
+    img{
+        width: 350px;;
+        height: 350px;
+        padding-left: 80px;
+        display: inline-block;
+    }
+
+    .info{
+        width: 400px;
+        height: 400px;
+        display: inline-block;
+}
+}
